@@ -1,0 +1,357 @@
+//compile program
+D:\tugas\Semester VI\Pemrograman4\Praktikum-1>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Praktikum-1 Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/mav
+en-war-plugin-2.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/mave
+n-war-plugin-2.2.pom (7 KB at 1.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/mav
+en-war-plugin-2.2.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/mave
+n-war-plugin-2.2.jar (77 KB at 52.7 KB/sec)
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Praktikum-1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platf
+orm dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Praktikum-1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Praktikum-1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platf
+orm dependent!
+[INFO] skip non existing resourceDirectory D:\tugas\Semester VI\Pemrograman4\Praktikum-1\src\test\r
+esources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Praktikum-1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Praktikum-1 ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ Praktikum-1 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [Praktikum-1] in [D:\tugas\Semester VI\Pemrograman4\Praktikum-1\target\Pra
+ktikum-1]
+[INFO] Processing war project
+[INFO] Copying webapp resources [D:\tugas\Semester VI\Pemrograman4\Praktikum-1\src\main\webapp]
+[INFO] Webapp assembled in [152 msecs]
+[INFO] Building war: D:\tugas\Semester VI\Pemrograman4\Praktikum-1\target\Praktikum-1.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.080 s
+[INFO] Finished at: 2016-03-28T23:00:31+07:00
+[INFO] Final Memory: 14M/113M
+[INFO] ------------------------------------------------------------------------
+
+//running program
+D:\tugas\Semester VI\Pemrograman4\Praktikum-1>mvn clean install
+..
+..
+..
+.9/maven-plugin-tools-2.9.pom (10 KB at 14.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom
+Downloaded: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom (10 KB at 1
+2.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jett
+y-plus-8.1.5.v20120716.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jetty
+-plus-8.1.5.v20120716.pom (4 KB at 5.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v
+201105210645/javax.transaction-1.1.1.v201105210645.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v2
+01105210645/javax.transaction-1.1.1.v201105210645.pom (740 B at 1.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jett
+y-jndi-8.1.5.v20120716.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jetty
+-jndi-8.1.5.v20120716.pom (3 KB at 3.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.
+1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1
+.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.pom (954 B at 1.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v2
+01105071233/javax.activation-1.1.0.v201105071233.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v20
+1105071233/javax.activation-1.1.0.v201105071233.pom (734 B at 1.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty
+-jmx-8.1.5.v20120716.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty-
+jmx-8.1.5.v20120716.pom (3 KB at 3.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v201207
+16/jetty-annotations-8.1.5.v20120716.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v2012071
+6/jetty-annotations-8.1.5.v20120716.pom (4 KB at 4.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v2
+01108011116/javax.annotation-1.1.0.v201108011116.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v20
+1108011116/javax.annotation-1.1.0.v201108011116.pom (734 B at 1.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v
+200803061910/org.objectweb.asm-3.1.0.v200803061910.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v2
+00803061910/org.objectweb.asm-3.1.0.v200803061910.pom (728 B at 1.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716
+/jetty-websocket-8.1.5.v20120716.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716/
+jetty-websocket-8.1.5.v20120716.pom (4 KB at 5.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty
+-jsp-8.1.5.v20120716.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty-
+jsp-8.1.5.v20120716.pom (2 KB at 2.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v
+201112011158/javax.servlet.jsp-2.2.0.v201112011158.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v2
+01112011158/javax.servlet.jsp-2.2.0.v201112011158.pom (941 B at 1.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfi
+sh/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfis
+h/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.pom (2 KB at 1.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.
+2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2
+.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom (2 KB at 1.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v
+201105211820/javax.servlet.jsp-2.1.0.v201105211820.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v2
+01105211820/javax.servlet.jsp-2.1.0.v201105211820.pom (941 B at 1.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standa
+rd.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standar
+d.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.pom (980
+B at 1.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011
+116/javax.el-2.2.0.v201108011116.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v2011080111
+16/javax.el-2.2.0.v201108011116.pom (724 B at 1.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v2011080
+11116/com.sun.el-2.2.0.v201108011116.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v20110801
+1116/com.sun.el-2.2.0.v201108011116.pom (720 B at 1.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.
+1/org.eclipse.jdt.core-3.7.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1
+/org.eclipse.jdt.core-3.7.1.pom (726 B at 1.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.5.v20120716/je
+tty-webapp-8.1.5.v20120716.jar
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/8.1.5.v20120716/jetty
+-xml-8.1.5.v20120716.jar
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.5.v20120716/jett
+y-util-8.1.5.v20120716.jar
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/8.1.5.v20120716/
+jetty-security-8.1.5.v20120716.jar
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.5.v20120716/j
+etty-servlet-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.5.v20120716/jet
+ty-webapp-8.1.5.v20120716.jar (105 KB at 64.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/8.1.5.v20120716/je
+tty-server-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/8.1.5.v20120716/jetty-
+xml-8.1.5.v20120716.jar (38 KB at 11.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.5.v20120
+716/jetty-continuation-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/8.1.5.v20120716/jet
+ty-server-8.1.5.v20120716.jar (326 KB at 92.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0.3/maven-plu
+gin-api-3.0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.5.v20120716/je
+tty-servlet-8.1.5.v20120716.jar (95 KB at 26.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0.3/maven-model-3.
+0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/8.1.5.v20120716/j
+etty-security-8.1.5.v20120716.jar (85 KB at 23.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-i
+nject-plexus-2.1.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.5.v201207
+16/jetty-continuation-8.1.5.v20120716.jar (21 KB at 5.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inj
+ect-bean-2.1.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0.3/maven-plug
+in-api-3.0.3.jar (49 KB at 8.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9
+.4-no_aop.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.5.v20120716/jetty
+-util-8.1.5.v20120716.jar (265 KB at 36.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0.3/maven-artif
+act-3.0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-in
+ject-plexus-2.1.1.jar (192 KB at 26.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.6/plexus-uti
+ls-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0.3/maven-model-3.0
+.3.jar (160 KB at 18.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.3/maven-core-3.0.
+3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inje
+ct-bean-2.1.1.jar (225 KB at 21.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.3/maven-setti
+ngs-3.0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0.3/maven-artifa
+ct-3.0.3.jar (51 KB at 4.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.3/mav
+en-settings-builder-3.0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.
+4-no_aop.jar (473 KB at 39.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.3/
+maven-repository-metadata-3.0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.6/plexus-util
+s-2.0.6.jar (219 KB at 17.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.3/maven-
+model-builder-3.0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.3/maven-settin
+gs-3.0.3.jar (46 KB at 3.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.3/mave
+n-aether-provider-3.0.3.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.3/m
+aven-repository-metadata-3.0.3.jar (30 KB at 1.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.11/aether-spi-1.
+11.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.3/maven
+-aether-provider-3.0.3.jar (55 KB at 2.5 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.3/maven-core-3.0.3
+.jar (544 KB at 24.7 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.3/maven-m
+odel-builder-3.0.3.jar (146 KB at 6.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.11/aether-impl-
+1.11.jar
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.11/aether-util-
+1.11.jar
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.11/aether-api-1.
+11.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.3/mave
+n-settings-builder-3.0.3.jar (41 KB at 1.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/ple
+xus-interpolation-1.14.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.11/aether-spi-1.1
+1.jar (16 KB at 0.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus
+-classworlds-2.4.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.11/aether-impl-1
+.11.jar (122 KB at 4.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-
+api/2.9/maven-plugin-tools-api-2.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plex
+us-interpolation-1.14.jar (60 KB at 2.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-a
+pi/2.9/maven-plugin-tools-api-2.9.jar (56 KB at 2.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jett
+y-plus-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-
+classworlds-2.4.jar (46 KB at 1.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v
+201105210645/javax.transaction-1.1.1.v201105210645.jar
+Downloaded: https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar (245 KB at
+7.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jett
+y-jndi-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.11/aether-util-1
+.11.jar (118 KB at 3.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.
+1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jetty
+-plus-8.1.5.v20120716.jar (83 KB at 2.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v2
+01105071233/javax.activation-1.1.0.v201105071233.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v2
+01105210645/javax.transaction-1.1.1.v201105210645.jar (29 KB at 0.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty
+-jmx-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jetty
+-jndi-8.1.5.v20120716.jar (39 KB at 1.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v201207
+16/jetty-annotations-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v20
+1105071233/javax.activation-1.1.0.v201105071233.jar (54 KB at 1.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v2
+01108011116/javax.annotation-1.1.0.v201108011116.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.11/aether-api-1.1
+1.jar (85 KB at 2.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v
+200803061910/org.objectweb.asm-3.1.0.v200803061910.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty-
+jmx-8.1.5.v20120716.jar (24 KB at 0.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716
+/jetty-websocket-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1
+.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.jar (480 KB at 12.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.5.v20120716/jetty-
+io-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v2012071
+6/jetty-annotations-8.1.5.v20120716.jar (74 KB at 1.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.5.v20120716/jett
+y-http-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v20
+1108011116/javax.annotation-1.1.0.v201108011116.jar (26 KB at 0.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty
+-jsp-8.1.5.v20120716.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v2
+00803061910/org.objectweb.asm-3.1.0.v200803061910.jar (217 KB at 5.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v
+201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.5.v20120716/jetty-i
+o-8.1.5.v20120716.jar (101 KB at 2.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v2011
+12011016/javax.servlet-3.0.0.v201112011016.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716/
+jetty-websocket-8.1.5.v20120716.jar (123 KB at 3.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfi
+sh/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.5.v20120716/jetty
+-http-8.1.5.v20120716.jar (92 KB at 2.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.
+2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty-
+jsp-8.1.5.v20120716.jar (3 KB at 0.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standa
+rd.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2
+.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar (51 KB at 1.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011
+116/javax.el-2.2.0.v201108011116.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v2
+01112011158/javax.servlet.jsp-2.2.0.v201112011158.jar (104 KB at 1.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v2011080
+11116/com.sun.el-2.2.0.v201108011116.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v2011080111
+16/javax.el-2.2.0.v201108011116.jar (50 KB at 0.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.
+1/org.eclipse.jdt.core-3.7.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standar
+d.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar (420
+KB at 7.1 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v20110801
+1116/com.sun.el-2.2.0.v201108011116.jar (127 KB at 2.1 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v20111
+2011016/javax.servlet-3.0.0.v201112011016.jar (196 KB at 2.9 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1
+/org.eclipse.jdt.core-3.7.1.jar (1708 KB at 21.1 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfis
+h/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.jar (579 KB at 7.1 KB/sec)
+[INFO] Configuring Jetty for project: Praktikum-1 Maven Webapp
+[INFO] webAppSourceDirectory D:\tugas\Semester VI\Pemrograman4\Praktikum-1\src\main\webapp does not
+ exist. Defaulting to D:\tugas\Semester VI\Pemrograman4\Praktikum-1\src\main\webapp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = D:\tugas\Semester VI\Pemrograman4\Praktikum-1\target\classes
+[INFO] Context path = /
+[INFO] Tmp directory = D:\tugas\Semester VI\Pemrograman4\Praktikum-1\target\tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = file:/D:/tugas/Semester%20VI/Pemrograman4/Praktikum-1/src/main/webapp/WEB-INF
+/web.xml
+[INFO] Webapp directory = D:\tugas\Semester VI\Pemrograman4\Praktikum-1\src\main\webapp
+[INFO] jetty-8.1.5.v20120716
+[INFO] No Transaction manager found - if your webapp requires one, please configure one.
+[INFO] started o.m.j.p.JettyWebAppContext{/,file:/D:/tugas/Semester%20VI/Pemrograman4/Praktikum-1/s
+rc/main/webapp/},file:/D:/tugas/Semester%20VI/Pemrograman4/Praktikum-1/src/main/webapp/
+[INFO] started o.m.j.p.JettyWebAppContext{/,file:/D:/tugas/Semester%20VI/Pemrograman4/Praktikum-1/s
+rc/main/webapp/},file:/D:/tugas/Semester%20VI/Pemrograman4/Praktikum-1/src/main/webapp/
+[INFO] started o.m.j.p.JettyWebAppContext{/,file:/D:/tugas/Semester%20VI/Pemrograman4/Praktikum-1/s
+rc/main/webapp/},file:/D:/tugas/Semester%20VI/Pemrograman4/Praktikum-1/src/main/webapp/
+[INFO] Started SelectChannelConnector@0.0.0.0:8080
+[INFO] Started Jetty Server

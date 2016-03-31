@@ -1,0 +1,9 @@
+Undeploying ...
+OK - Undeployed application at context path /
+In-place deployment at D:\tugas\Semester VI\Pemrograman 4\Tugas1\Tugas1\target\Tugas1-1.0-SNAPSHOT
+Deployment is in progress...
+deploy?config=file%3A%2FC%3A%2FUsers%2Fasus%2FAppData%2FLocal%2FTemp%2Fcontext5425981991292942736.xml&path=/
+OK - Deployed application at context path /
+Start is in progress...
+start?path=/
+OK - Started application at context path /

@@ -1,0 +1,9 @@
+//generate project
+mvn archetype:generate 
+-DgroupId=nama-package 
+-DartifactId=nama-project
+-DarchetypeArtifactId=maven-archetype-webapp 
+-DinteractiveMode=false
+
+//run project
+mvn package
